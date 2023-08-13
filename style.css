@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "Avenir", "Monserrat", sans-serif;
+}
+
+h1 {
+  color: white;
+  background-color: steelblue;
+  margin: 0;
+  padding: 18px 0;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+#currectcolor {
+  font-size: 150%;
+}
+
+#messageContainer {
+  background-color: aliceblue;
+  height: 1.6em;
+  text-align: center;
+}
+
+#message {
+  display: inline-block;
+  width: 24%;
+  font-weight: 700;
+  font-size: inherit;
+}
+
+button {
+  border: none;
+  background-color: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  font-size: inherit;
+  color: steelblue;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
+  border-radius: 2px;
+}
+
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  -moz-transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
